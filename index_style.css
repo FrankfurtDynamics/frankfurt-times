@@ -1,0 +1,57 @@
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.Menue{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-right: 2cm;
+	margin-left: 2cm;
+	margin-bottom: 0,5cm;
+}
+.Menue a{
+	color: white;
+}
+	
+.Menue a:hover{
+	background-color: gray;
+	border-radius: 20px;
+	height: 50px;
+}
+.Logo a:hover{
+	height: 0px;
+	background-color: black;
+}
+.FrankfurtTimes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 2.5cm;
+	font-family: Times New Roman;
+}
+.Seitenformat{
+	justify-content: left;
+}
+.grid-container {
+	display: grid;
+	padding: 2rem;
+	grid-template-columns: 500px 1fr;
+	gap: 2rem;
+	max-width: 1200px;
+	margin: 10;
+	font: 600 150%/2;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
