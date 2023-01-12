@@ -1,52 +1,52 @@
 
 a{
-	text-decoration: none;
+	text-decoration: none; /*Grobe Einstellungen fuer Links*/
 	color: inherit;
 }
 
 .Menue{
 	background-color: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between; /*Einstellungen fuer Layout in der Navigationsleiste*/
 	flex-direction: row;
 	margin-right: 2cm;
 	margin-left: 2cm;
 	margin-bottom: 0,5cm;
 }
 .Menue a{
-	color: white;
+	color: white; /*Schriftfarbe der links in der Navigationsleiste*/
 }
 	
 .Menue a:hover{
-	background-color: gray;
+	background-color: gray; /*Effekt fuer Cursor in der Navigationsleiste*/
 	border-radius: 20px;
 	height: 50px;
 }
 .Logo a:hover{
 	height: 0px;
-	background-color: black;
+	background-color: black;/*Effekt fuer das Logo in der Navigationsleiste*/
 }
 .FrankfurtTimes {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: center;	/*Formatierung der Ueberschrift*/
 	font-size: 2.5cm;
 	font-family: Times New Roman;
 }
 .Seitenformat{
-	justify-content: left;
+	justify-content: left; /*Inhalte Links anordnen*/
 }
 .grid-container {
 	display: grid;
 	padding: 2rem;
-	grid-template-columns: 500px 1fr;
+	grid-template-columns: 500px 1fr; /*Einstellungen fuer Schrift und Items in dem Grid*/
 	gap: 2rem;
 	max-width: 1200px;
 	margin: 10;
 	font: 600 150%/2;
 }
 img {
-	max-width: 100%;
+	max-width: 100%;	/*Einstellungen fuer die Bildformatierung*/
 	height: auto;
 }
 
