@@ -52,7 +52,7 @@ img {
 @media (max-width: 650px) {
   body {
     display: grid;
-    font-size: 80%;
+    font-size: 70%;
   }
   p {
     position: relative;
