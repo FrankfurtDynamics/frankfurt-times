@@ -49,22 +49,17 @@ img {
 	max-width: 100%;	/*Einstellungen fuer die Bildformatierung*/
 	height: auto;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  select,
-  textarea,
-  input {
-    font-size: 16px;
+@media (max-width: 650px) {
+  body {
+    display: block;
+    font-size: 80%;
   }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  select:focus,
-  textarea:focus,
-  input:focus {
-    font-size: 16px;
-  }
-}
-
+  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  
 
 
 
